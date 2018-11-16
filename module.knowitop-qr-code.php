@@ -1,6 +1,7 @@
 <?php
 //
 // iTop module definition file
+// View https://github.com/knowitop/knowitop-qr-code for details
 //
 
 SetupWebPage::AddModule(
@@ -9,7 +10,7 @@ SetupWebPage::AddModule(
 	array(
 		// Identification
 		//
-		'label' => 'QR codes generator module by _knowitop',
+		'label' => 'QR code generator',
 		'category' => 'business',
 
 		// Setup
@@ -26,7 +27,7 @@ SetupWebPage::AddModule(
 			'main.knowitop-qr-code.php'
 		),
 		'webservice' => array(
-			
+
 		),
 		'data.struct' => array(
 			// add your 'structure' definition XML files here,
@@ -34,11 +35,11 @@ SetupWebPage::AddModule(
 		'data.sample' => array(
 			// add your sample data XML files here,
 		),
-		
+
 		// Documentation
 		//
 		'doc.manual_setup' => '', // hyperlink to manual setup documentation, if any
-		'doc.more_information' => '', // hyperlink to more information, if any 
+		'doc.more_information' => 'https://github.com/knowitop/knowitop-qr-code', // hyperlink to more information, if any
 
 		// Default settings
 		//
